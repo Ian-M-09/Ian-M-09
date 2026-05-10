@@ -4,7 +4,10 @@
 
 ###
 <div align="center">
+  <!-- Gráfico de Estadísticas -->
   <img src="https://githubusercontent.com" height="150" alt="stats graph" />
+  
+  <!-- Gráfico de Lenguajes más usados -->
   <img src="https://githubusercontent.com" height="150" alt="languages graph" />
 </div>
 
