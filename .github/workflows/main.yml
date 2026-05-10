@@ -1,16 +1,20 @@
 name: Generate Datas
 
 on:
-  schedule: # Se ejecuta cada 12 horas
+  schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch: # Permite ejecutarlo manualmente
+  workflow_dispatch:
 
 jobs:
   build:
-    name: Jobs to update datas
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      # Juego de la Serpiente
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # 1. Generar el juego de la serpiente
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -19,16 +23,8 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # Estadísticas de Perfil (lo que ya tenías)
-      - name: Generate Profile Summary Cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: Ian-M-09
-
-      # Guardar todo en una rama llamada "output"
-      - name: Push changes
+      # 2. Guardar el juego en la rama 'output'
+      - name: Push Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
@@ -36,3 +32,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # 3. Generar las tarjetas de estadísticas (lo que ya te funcionaba)
+      - name: Generate Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: Ian-M-09
