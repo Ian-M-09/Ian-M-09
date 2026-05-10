@@ -5,10 +5,10 @@
 ###
 
 <div align="center">
-  <!-- Tarjeta de Estadísticas Generales -->
+  <!-- Estadísticas Generales usando un dominio alternativo más estable -->
   <img src="https://vercel.app" height="150" alt="stats graph" />
   
-  <!-- Tarjeta de Lenguajes (Versión alternativa más estable) -->
+  <!-- Lenguajes más usados -->
   <img src="https://vercel.app" height="150" alt="languages graph" />
 </div>
 
