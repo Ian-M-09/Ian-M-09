@@ -5,8 +5,8 @@
 ###
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Ian-M-09/Ian-M-09/stats-output/stats.svg" height="150" alt="stats graph"  />
-  <img src="https://raw.githubusercontent.com/Ian-M-09/Ian-M-09/languages-output/languages.svg" height="150" alt="languages graph"  />
+  <img src="https://vercel.app" height="150" alt="stats graph" />
+  <img src="https://vercel.app" height="150" alt="languages graph" />
 </div>
 
 ###
