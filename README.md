@@ -3,13 +3,9 @@
 <h2 align="center">Hi 👋! My name is Ian and I'm an Informatics Engineering student interested in becoming a Full Stack Developer.</h2>
 
 ###
-
 <div align="center">
-  <!-- Estadísticas Generales usando un dominio alternativo más estable -->
-  <img src="https://vercel.app" height="150" alt="stats graph" />
-  
-  <!-- Lenguajes más usados -->
-  <img src="https://vercel.app" height="150" alt="languages graph" />
+  <img src="https://githubusercontent.com" height="150" alt="stats graph" />
+  <img src="https://githubusercontent.com" height="150" alt="languages graph" />
 </div>
 
 ###
