@@ -32,11 +32,8 @@
 
 ###
 <div align="center">
-  <img src="https://vercel.app" alt="Pacman" />
-  <!-- Nota: Algunos generadores usan este formato para el juego -->
-  <img src="https://githubusercontent.com" alt="snake" />
+  <img src="https://githubusercontent.com" alt="Snake Game" />
 </div>
-
 
 ###
 
