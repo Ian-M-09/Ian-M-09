@@ -4,8 +4,8 @@
 
 ###
 <div align="center">
-  <img src="./profile-summary-card-output/dark/0-github-stats.svg" height="150" alt="stats graph" />
-  <img src="./profile-summary-card-output/dark/2-most-used-languages.svg" height="150" alt="languages graph" />
+  <img src="./profile-summary-card-output/dark/3-stats.svg" height="150" alt="stats graph" />
+  <img src="./profile-summary-card-output/dark/1-repos-per-language.svg" height="150" alt="languages graph" />
 </div>
 
 ###
