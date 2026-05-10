@@ -31,6 +31,14 @@
 </div>
 
 ###
+<div align="center">
+  <img src="https://vercel.app" alt="Pacman" />
+  <!-- Nota: Algunos generadores usan este formato para el juego -->
+  <img src="https://githubusercontent.com" alt="snake" />
+</div>
+
+
+###
 
 <div align="left">
   <a href="https://www.instagram.com/_ianmino_/" target="_blank">
