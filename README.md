@@ -4,11 +4,8 @@
 
 ###
 <div align="center">
-  <!-- Gráfico de Estadísticas -->
-  <img src="https://githubusercontent.com" height="150" alt="stats graph" />
-  
-  <!-- Gráfico de Lenguajes más usados -->
-  <img src="https://githubusercontent.com" height="150" alt="languages graph" />
+  <img src="./profile-summary-card-output/dark/0-github-stats.svg" height="150" alt="stats graph" />
+  <img src="./profile-summary-card-output/dark/2-most-used-languages.svg" height="150" alt="languages graph" />
 </div>
 
 ###
