@@ -1,6 +1,6 @@
 <br clear="both">
 
-<h2 align="center">Hi 👋! My name is Ian and I'm an Informatics Engineering student interested in becoming a Full Stack Developer.<br>-------------------------------------------------------------------------------------------------------------------<br>¡Hola 👋! Mi nombre es Ian y soy un estudiante de Ingeniería Informática interesado en convertirme en desarrollador Full Stack.</h2>
+<h2 align="center">Hi 👋! My name is Ian and I'm an Informatics Engineering student interested in becoming a Full Stack Developer.</h2>
 
 ###
 
