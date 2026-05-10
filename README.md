@@ -3,14 +3,14 @@
 <h1 align="center">Hi 👋! My name is Ian and I'm an Informatics Engineering student interested in becoming a Full Stack Developer.</h1>
 
 ###
-<h2 align="center"> Estadisticas </h2>
+<h2 align="center"> 📊 Estadísticas </h2>
 <div align="center">
   <img src="./profile-summary-card-output/dark/3-stats.svg" height="150" alt="stats graph" />
   <img src="./profile-summary-card-output/dark/1-repos-per-language.svg" height="150" alt="languages graph" />
 </div>
 
 ###
-<h2 align="left">Herramientas de trabajo</h2>
+<h2 align="center"> 🛠️ Herramientas de trabajo </h2>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
@@ -37,7 +37,7 @@
 </div>
 
 ###
-<h2 align="left">Contactos </h2>
+<h2 align="center"> 📧 Contacto </h2>
 <div align="left">
   <a href="https://www.instagram.com/_ianmino_/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
@@ -56,15 +56,10 @@
   </a>
 </div>
 
-###
-<h2 align="center">Formación Extra </h2>
+<h2 align="center"> 🎓 Formación Extra </h2>
 
-<br clear="both">
-
-<img align="left" height="200" src="https://i.postimg.cc/j2NXDf7C/IMG-20260315-134803.jpg"  />
-
-###
-
-<img align="left" height="200" src="https://i.postimg.cc/cCq7GJ5V/IMG-20260410-131445.jpg"  />
-
-###
+<div align="center">
+  <img src="https://i.postimg.cc/j2NXDf7C/IMG-20260315-134803.jpg" height="200" alt="Certificado 1" />
+  <img width="20" /> <!-- Espacio entre imágenes -->
+  <img src="https://i.postimg.cc/cCq7GJ5V/IMG-20260410-131445.jpg" height="200" alt="Certificado 2" />
+</div>
