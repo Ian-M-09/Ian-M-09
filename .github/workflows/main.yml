@@ -23,7 +23,7 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # 2. Guardar el juego en la rama 'output'
+      # 2. Guardar SOLO la serpiente en la rama 'output'
       - name: Push Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
@@ -32,7 +32,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 3. Generar las tarjetas de estadísticas (lo que ya te funcionaba)
+      # 3. Generar las estadísticas en la rama principal (lo que ya tenías)
       - name: Generate Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
