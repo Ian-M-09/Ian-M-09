@@ -32,7 +32,7 @@
 
 ###
 <div align="center">
-  <img src="https://githubusercontent.com" alt="Snake Game" />
+  <img src="https://github.com" alt="GitHub Snake" />
 </div>
 
 ###
