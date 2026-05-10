@@ -1,4 +1,4 @@
-name: Generate Datas
+name: Generate Snake
 
 on:
   schedule:
@@ -14,7 +14,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      # 1. Generar el juego de la serpiente
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -23,19 +22,10 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # 2. Guardar SOLO la serpiente en la rama 'output'
-      - name: Push Snake to Output Branch
+      - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # 3. Generar las estadísticas en la rama principal (lo que ya tenías)
-      - name: Generate Profile Summary Cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: Ian-M-09
