@@ -1,15 +1,16 @@
 <br clear="both">
 
-<h2 align="center">Hi 👋! My name is Ian and I'm an Informatics Engineering student interested in becoming a Full Stack Developer.</h2>
+<h1 align="center">Hi 👋! My name is Ian and I'm an Informatics Engineering student interested in becoming a Full Stack Developer.</h1>
 
 ###
+<h2 align="center"> Estadisticas </h2>
 <div align="center">
   <img src="./profile-summary-card-output/dark/3-stats.svg" height="150" alt="stats graph" />
   <img src="./profile-summary-card-output/dark/1-repos-per-language.svg" height="150" alt="languages graph" />
 </div>
 
 ###
-
+<h2 align="left">Herramientas de trabajo</h2>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
@@ -36,7 +37,7 @@
 </div>
 
 ###
-
+<h2 align="left">Contactos </h2>
 <div align="left">
   <a href="https://www.instagram.com/_ianmino_/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
@@ -56,6 +57,7 @@
 </div>
 
 ###
+<h2 align="center">Formación Extra </h2>
 
 <br clear="both">
 
