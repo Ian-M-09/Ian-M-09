@@ -11,13 +11,14 @@ jobs:
     name: generate-github-profile-summary-cards
     permissions:
       contents: write
+    # Forzamos Node 24 para estar al día con el cambio de junio
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4 # Actualizado a v4
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         with:
           USERNAME: Ian-M-09
-          # El parámetro correcto es BRANCH_NAME si querés especificar dónde guardar
-          # Pero por defecto la acción intentará hacer Auto-Push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
