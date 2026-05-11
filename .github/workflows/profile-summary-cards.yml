@@ -1,9 +1,9 @@
 name: GitHub-Profile-Summary-Cards
 
 on:
-  schedule: # Se ejecutará automáticamente cada 24 horas
+  schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch: # Te permite ejecutarlo manualmente cuando quieras
+  workflow_dispatch:
 
 jobs:
   build:
@@ -18,5 +18,4 @@ jobs:
         with:
           github_user_name: Ian-M-09
           updated_at: true
-          # Elegimos el tema dark para que combine con tus capturas anteriores
           theme: dark
