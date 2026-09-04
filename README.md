@@ -36,11 +36,10 @@
 </div>
 
 <h2 align="center"> 🎓 Formación Extra </h2>
-
-<div align="center">
-  <img src="https://i.postimg.cc/j2NXDf7C/IMG-20260315-134803.jpg" height="200" alt="Certificado 1" />
-  <img width="20" /> <!-- Espacio entre imágenes -->
-  <img src="https://i.postimg.cc/cCq7GJ5V/IMG-20260410-131445.jpg" height="200" alt="Certificado 2" />
-  <img width="20"/>
-  <img src="https://cdn.phototourl.com/free/2026-09-04-70b84132-be53-4573-a656-364b123a4e10.png" height="200" alt="Certificado 3" />
-</div>
+<table align="center">
+  <tr>
+    <td><img src="https://i.postimg.cc/j2NXDf7C/IMG-20260315-134803.jpg" height="200" alt="Certificado 1" /></td>
+    <td><img src="https://i.postimg.cc/cCq7GJ5V/IMG-20260410-131445.jpg" height="200" alt="Certificado 2" /></td>
+    <td><img src="https://cdn.phototourl.com/free/2026-09-04-70b84132-be53-4573-a656-364b123a4e10.png" height="200" alt="Certificado 3" /></td>
+  </tr>
+</table>
