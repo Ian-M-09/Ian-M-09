@@ -1,6 +1,6 @@
 <br clear="both">
 
-<h1 align="center">Hi 👋! My name is Ian and I'm an Informatics Engineering student interested in Full Stack Development and Cybersecurity.</h1>
+<h1 align="center">Hi 👋! My name is Ian and I'm an Informatics Engineering student focused on Full Stack Development and Cybersecurity.</h1>
 
 ###
 <h2 align="center"> 📊 Estadísticas </h2>
