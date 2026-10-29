@@ -42,5 +42,6 @@
     <td><img src="./assets/certificado.2.jpg" height="200" alt="Certificado 2" /></td>
     <td><img src="./assets/certificado.3.jpg" height="200" alt="Certificado 3" /></td>
     <td><img src="./assets/certificado.4.jpg" height="200" alt="Certificado 4">
+    <td><img src="./assets/certificado.5.jpg" height="200" alt="Certificado 5">
   </tr>
 </table>
